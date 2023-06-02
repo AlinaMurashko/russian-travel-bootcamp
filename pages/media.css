@@ -99,7 +99,7 @@
         line-height: 46px;
     }
 
-    .links_article {
+    .article {
         font-size: 16px;
     }
 
@@ -124,7 +124,7 @@
         max-height: 42px;
     }
 
-    .language {
+    .language__option {
         font-size: 18px;
         line-height: 20px;
     }
@@ -201,7 +201,7 @@
         width: 288px;
     }
 
-    .place__website {
+    .url__caption {
         width: 288px;
     }
 
@@ -209,11 +209,11 @@
         max-width: 288px;
     }
 
-    .links_article {
+    .article {
         font-size: 18px;
     }
 
-    .links__footer {
+    .links-footer {
         font-size: 24px;
         line-height: 24px;
     }
