@@ -47,4 +47,6 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__list/footer__list.css);
 
+@import url(../blocks/link-opacity/link-opacity.css);
+
 @import url(../pages/media.css);
