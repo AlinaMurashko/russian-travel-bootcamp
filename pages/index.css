@@ -1,6 +1,6 @@
 
 
-@import url(../Inter/inter.css);
+@import url(../fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
@@ -32,9 +32,9 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
-@import url(../blocks/URL/url.css);
-@import url(../blocks/URL/__caption/url__caption.css);
-@import url(../blocks/URL/__website/url__website.css);
+@import url(../blocks/url/url.css);
+@import url(../blocks/url/__caption/url__caption.css);
+@import url(../blocks/url/__website/url__website.css);
 
 @import url(../blocks/acticle/article.css);
 @import url(../blocks/links-footer/links-footer.css);
@@ -49,4 +49,6 @@
 
 @import url(../blocks/link-opacity/link-opacity.css);
 
-@import url(../pages/media.css);
+@import url(../nested/media.css);
+
+* { outline: 1px solid yellow; }

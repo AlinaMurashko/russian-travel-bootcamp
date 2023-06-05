@@ -1,9 +1,10 @@
 .place {
     display: grid;
-    grid-template-columns: 4.6fr 5.4fr;
+    grid-template-columns: 460px 1fr;
     grid-template-rows: 2 auto;
     row-gap: 48px;
     column-gap: 40px;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
