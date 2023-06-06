@@ -1,4 +1,4 @@
-.url {
+.place__website {
     display: flex;
     flex-direction: column;
     font-family: 'Inter',sans-serif;
@@ -8,4 +8,11 @@
     padding: 0;
     gap: 12px;
     width: 100%;
+}
+
+@media screen and (max-width:767px) {
+
+    .place__website {
+        max-width: 288px;
+    }
 }
