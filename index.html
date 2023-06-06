@@ -13,9 +13,9 @@
 
         <img src="./images/header-logo.svg" class="header__logo" alt="Логотип">
 
-        <div class="language">
-            <p class="language__option language__option_active">RU</p>
-            <p class="language__option">Eng</p>
+        <div class="header__language">
+            <a href="#" class="header__lang-options header__lang-options_active">RU</a>
+            <a href="#" class="header__lang-options">Eng</a>
         </div>
     </header>
     <main class="content">
@@ -69,12 +69,12 @@
                 </div>
                 <img class="place__image" src="./images/place-kosa.jpg" alt="Коса">
                 <article class="place__paragraph">
-                    <p class="article">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
+                    <p class="place__article">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
                         спокойного Куршского
                         залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная
                         зона
                         на краю российского анклава.</p>
-                    <p class="article">На этом Калининградская область не заканчивается. Для путешественника и
+                    <p class="place__article">На этом Калининградская область не заканчивается. Для путешественника и
                         исследователя
                         там же по
                         соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи
@@ -92,11 +92,11 @@
                 </div>
                 <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
                 <article class="place__paragraph">
-                    <p class="article">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
+                    <p class="place__article">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
                         на юг
                         —
                         тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-                    <p class="article">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля
+                    <p class="place__article">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля
                         в
                         Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках
                         географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а
@@ -114,13 +114,13 @@
                 </div>
                 <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
                 <article class="place__paragraph">
-                    <p class="article">Алтай — одно из красивейших мест в России.
+                    <p class="place__article">Алтай — одно из красивейших мест в России.
                         В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
                         горные
                         реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом
                         здешних
                         мест — горным воздухом.</p>
-                    <p class="article">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите
+                    <p class="place__article">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите
                         всё
                         разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на
                         равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
@@ -134,11 +134,11 @@
                 </div>
                 <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
                 <article class="place__paragraph">
-                    <p class="article">Всем известен Байкал как крупнейшее озеро
+                    <p class="place__article">Всем известен Байкал как крупнейшее озеро
                         в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших
                         мест в
                         России.</p>
-                    <p class="article">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
+                    <p class="place__article">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
                         скийорингу.
                         Это такой вид спорта, когда лыжник привязывает себя
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
@@ -153,7 +153,7 @@
                 </div>
                 <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
                 <article class="place__paragraph">
-                    <p class="article">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+                    <p class="place__article">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
                         лиственница
                         не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
                         национальных
@@ -175,11 +175,11 @@
     <footer class="footer">
         <nav>
         <ul class="footer__list">
-                <li><a href="https://yandex.ru/maps" class="links-footer link-opacity">Карты</a></li>
-                <li><a href="https://yandex.ru/pogoda" class="links-footer link-opacity">Погода</a></li>
-                <li><a href="https://rasp.yandex.ru" class="links-footer link-opacity">Расписание</a></li>
-                <li><a href="https://calendar.yandex.ru" class="links-footer link-opacity">Календарь</a></li>
-                <li><a href="https://travel.yandex.ru" class="links-footer link-opacity">Путешествия</a></li>
+                <li><a href="https://yandex.ru/maps" class="footer__link link-opacity">Карты</a></li>
+                <li><a href="https://yandex.ru/pogoda" class="footer__link link-opacity">Погода</a></li>
+                <li><a href="https://rasp.yandex.ru" class="footer__link link-opacity">Расписание</a></li>
+                <li><a href="https://calendar.yandex.ru" class="footer__link link-opacity">Календарь</a></li>
+                <li><a href="https://travel.yandex.ru" class="footer__link link-opacity">Путешествия</a></li>
         </ul>
         </nav>
         <p class="footer__copyright">&#169;2023, Alina Murashko</p>

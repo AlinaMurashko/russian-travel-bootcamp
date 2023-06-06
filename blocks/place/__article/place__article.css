@@ -1,4 +1,4 @@
-.article {
+.place__article {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -12,14 +12,14 @@
 @media screen and (max-width:1023px) {
 
 
-    .article {
+    .place__article {
         font-size: 16px;
     }
 
 }
 
 @media screen and (max-width:767px) {
-    .article {
+    .place__article {
         font-size: 18px;
     }
 }
