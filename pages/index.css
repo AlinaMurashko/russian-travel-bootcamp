@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
@@ -34,10 +35,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__article/place__article.css);
 
-@import url(../blocks/url/url.css);
-@import url(../blocks/url/__caption/url__caption.css);
-@import url(../blocks/url/__website/url__website.css);
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
@@ -51,4 +48,4 @@
 
 
 
-* { outline: 1px solid yellow; }
+/* * { outline: 1px solid yellow; } */
