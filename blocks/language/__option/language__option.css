@@ -1,9 +1,17 @@
 .language__option {
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-align: right;
     margin: 0;
+}
+
+@media screen and (max-width:767px) {
+
+    .language__option {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

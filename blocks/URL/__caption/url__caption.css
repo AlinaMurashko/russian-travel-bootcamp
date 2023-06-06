@@ -9,3 +9,10 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width:767px) {
+
+    .url__caption {
+        max-width: 288px;
+    }
+}
