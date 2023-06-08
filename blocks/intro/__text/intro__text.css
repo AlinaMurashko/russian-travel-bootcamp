@@ -21,7 +21,6 @@
 @media screen and (max-width:767px) {
     .intro__text {
         padding: 0 0 34px 0;
-        max-width: 720px;
         justify-items: center;
     }
 }
