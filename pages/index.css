@@ -48,3 +48,6 @@
 
 @import url(../blocks/link-opacity/link-opacity.css);
 
+::-webkit-scrollbar {
+    width: 0;
+  }
