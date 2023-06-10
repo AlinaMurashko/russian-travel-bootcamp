@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    align-self: center;
 }
 
 @media screen and (max-width:1279px) {
@@ -20,6 +21,7 @@
 @media screen and (max-width:1023px) {
     .footer {
         max-width: 720px;
+        padding: 88px 0 24px 0;
     }
 }
 
